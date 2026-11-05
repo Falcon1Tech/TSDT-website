@@ -51,3 +51,15 @@
 .sponsor-partners .additional-partner-copy p{font-size:14px;line-height:1.45}
 @media(max-width:850px){.sponsor-partners .additional-partner-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.sponsor-partners .additional-partner-grid{grid-template-columns:1fr}.sponsor-partners .additional-partner-card{min-height:190px;grid-template-rows:100px auto}.sponsor-partners .additional-partner-logo{height:100px;min-height:100px}.sponsor-partners .additional-partner-logo img{height:84px;max-height:84px}}
+
+/* Detailed sponsor and collaboration profiles — preview branch */
+.partner-description-grid{grid-template-columns:1fr;align-items:stretch;gap:22px}
+.partner-description-card{grid-template-columns:minmax(190px,.34fr) 1fr!important;grid-template-rows:auto!important;align-items:start!important;justify-items:stretch!important;text-align:left!important;gap:28px!important;padding:30px!important;min-height:0!important}
+.partner-description-card .additional-partner-logo{position:sticky;top:110px;align-self:start;height:auto!important;min-height:150px!important;background:#fbf5e8;border:1px solid #eee1d2}
+.partner-description-card .additional-partner-logo img{height:auto!important;max-height:130px!important}
+.partner-description-card .additional-partner-copy h4{font-size:clamp(23px,2.5vw,30px)!important;margin:5px 0 16px!important}
+.partner-description-card .additional-partner-copy p{font-size:15px;line-height:1.75;font-weight:400;margin:0 0 13px}
+.partner-description-card .additional-partner-copy ul{padding-left:22px;color:#705e56;line-height:1.7;font-size:14px}
+.partner-description-card .additional-partner-copy li{margin:0 0 10px}
+.partner-tag{display:inline-block;color:#7a1e14;background:#fbf0dc;border:1px solid #ecd8b7;border-radius:999px;padding:5px 11px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+@media(max-width:700px){.partner-description-card{grid-template-columns:1fr!important;gap:18px!important;padding:22px!important}.partner-description-card .additional-partner-logo{position:static;min-height:105px!important}.partner-description-card .additional-partner-logo img{max-height:90px!important}}
