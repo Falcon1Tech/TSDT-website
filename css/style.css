@@ -51,3 +51,99 @@
 .sponsor-partners .additional-partner-copy p{font-size:14px;line-height:1.45}
 @media(max-width:850px){.sponsor-partners .additional-partner-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.sponsor-partners .additional-partner-grid{grid-template-columns:1fr}.sponsor-partners .additional-partner-card{min-height:190px;grid-template-rows:100px auto}.sponsor-partners .additional-partner-logo{height:100px;min-height:100px}.sponsor-partners .additional-partner-logo img{height:84px;max-height:84px}}
+
+
+/* Palms For Life Fund — full collaboration profile */
+.sponsor-partners .pfl-full-profile{
+  grid-column:1 / -1;
+  display:grid;
+  grid-template-columns:minmax(230px,.72fr) minmax(0,1.8fr);
+  grid-template-rows:auto;
+  align-items:stretch;
+  justify-items:stretch;
+  gap:34px;
+  padding:34px;
+  min-height:0;
+  text-align:left;
+  border-color:#d9c19d;
+  box-shadow:0 16px 42px rgba(73,31,22,.075);
+}
+.sponsor-partners .pfl-profile-logo{
+  height:auto;
+  min-height:100%;
+  padding:28px 22px;
+  flex-direction:column;
+  gap:22px;
+  background:#fbf5e9;
+  border:1px solid #eee2cf;
+}
+.sponsor-partners .pfl-profile-logo img{
+  width:100%;
+  height:auto;
+  max-height:135px;
+}
+.pfl-profile-label{
+  display:block;
+  color:#7a1e14;
+  font-size:11px;
+  line-height:1.5;
+  font-weight:800;
+  letter-spacing:.11em;
+  text-align:center;
+  text-transform:uppercase;
+}
+.pfl-impact{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:100%;
+  padding:19px 12px;
+  border-top:1px solid #e4d3b9;
+  text-align:center;
+}
+.pfl-impact strong{
+  color:#7a1e14;
+  font:700 58px/1 Georgia,serif;
+}
+.pfl-impact span{margin-top:7px;color:#2f1b16;font-size:16px;font-weight:800}
+.pfl-impact small{margin-top:5px;color:#705e56;font-size:12px;line-height:1.5}
+.sponsor-partners .pfl-profile-copy{align-self:center}
+.pfl-profile-kicker{
+  color:#8a4d18;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.13em;
+  line-height:1.5;
+  text-transform:uppercase;
+}
+.sponsor-partners .pfl-profile-copy h4{
+  margin:9px 0 19px;
+  font-size:clamp(25px,3vw,34px);
+  line-height:1.2;
+  text-align:left;
+}
+.sponsor-partners .pfl-profile-copy p{
+  margin:0 0 15px;
+  color:#66544b;
+  font-size:15px;
+  font-weight:400;
+  line-height:1.8;
+}
+.sponsor-partners .pfl-profile-copy p:last-child{margin-bottom:0}
+.sponsor-partners .pfl-profile-copy strong{color:#38231c;font-weight:800}
+@media(max-width:700px){
+  .sponsor-partners .pfl-full-profile{
+    grid-template-columns:1fr;
+    gap:22px;
+    padding:20px;
+  }
+  .sponsor-partners .pfl-profile-logo{
+    min-height:0;
+    padding:22px 18px;
+  }
+  .sponsor-partners .pfl-profile-logo img{max-height:100px}
+  .pfl-impact{padding:15px 8px 4px}
+  .pfl-impact strong{font-size:48px}
+  .sponsor-partners .pfl-profile-copy h4{font-size:25px}
+  .sponsor-partners .pfl-profile-copy p{font-size:14px;line-height:1.75}
+}
